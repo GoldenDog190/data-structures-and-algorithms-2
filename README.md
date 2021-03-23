@@ -15,3 +15,19 @@
 ![6E5C794E-8393-4F39-86A0-1B4FF5E99935](https://user-images.githubusercontent.com/65562053/112089091-38b49200-8b4e-11eb-9cc9-bed5b26b1973.jpeg)
 
 
+# Challenge Insert Shift Array - Class 02
+<!-- Short summary or background information -->
+* In this challenge return an array with the new value added at the middle index.
+
+## Challenge Description
+<!-- Description of the challenge -->
+* Write a function called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+* Collaborated with  . First started by setting up our files, and then started working on the white board to find out how we were going to approach this challenge. Once we had figured out what we were going to do on the white board, we started working on the code itself. 
+
+
+## Solution
+<!-- Embedded whiteboard image -->
+![](https://user-images.githubusercontent.com/65562053/112089091-38b49200-8b4e-11eb-9cc9-bed5b26b1973.jpeg)
