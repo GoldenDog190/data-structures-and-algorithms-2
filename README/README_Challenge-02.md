@@ -22,6 +22,6 @@ Then we fixed the code, and worked on our README.md.
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![ArrayShift](ArrayShift.jpeg)
+![ArrayShift](assets/ArrayShift.jpeg)
 
 
