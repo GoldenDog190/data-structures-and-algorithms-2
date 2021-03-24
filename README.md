@@ -2,9 +2,9 @@
 
 **Challenges directory - contains code challenges from 401 Java, and the desciptions for each challenge is below:**
 
-# [Reverse an Array - Class 01](README/README_Challenge-01.md)
+# [Reverse an Array - Class 01](README_Challenge-01.md)
 
-# Challenge Insert Shift Array - Class 02
+# [Challenge Insert Shift Array - Class 02](README_Challenge-01.md)
 <!-- Short summary or background information -->
 * In this challenge return an array with the new value added at the middle index.
 
