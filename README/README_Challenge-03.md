@@ -11,4 +11,4 @@ I collaborated with Edward Hou and James Mansour for this challenge. First we wr
 
 ## Solution
 <!-- Embedded whiteboard image -->
-[Binary Search White Board](assets/BinarySearch.jpeg)
+![41BEB629-E358-48B9-9C38-3FCD887230CC](https://user-images.githubusercontent.com/65562053/112492184-49c3f580-8d3e-11eb-8721-46f4aa202c43.jpeg)

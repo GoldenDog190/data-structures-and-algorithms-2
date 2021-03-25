@@ -22,6 +22,6 @@ Then we fixed the code, and worked on our README.md.
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![ArrayShift](assets/ArrayShift.jpeg)
+![EDD3FC53-6675-4000-9526-DEDF944FA774](https://user-images.githubusercontent.com/65562053/112330226-15d0cd80-8c75-11eb-90da-e4665d862fc0.jpeg)
 
 
