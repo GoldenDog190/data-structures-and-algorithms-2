@@ -4,8 +4,8 @@
 
 # [Reverse an Array - Class 01](readme/readme-challenge-01.md)
 
-# [Challenge Insert Shift Array - Class 02](readme-challenge-02.md)
+# [Challenge Insert Shift Array - Class 02](readme/readme-challenge-02.md)
 
 
-# [Binanry Search - Class 03](readme-challenge-03.md)
+# [Binanry Search - Class 03](readme/readme-challenge-03.md)
 
