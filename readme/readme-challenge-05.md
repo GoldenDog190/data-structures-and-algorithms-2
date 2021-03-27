@@ -1,6 +1,6 @@
 # Singly Linked List
 <!-- Short summary or background information -->
-*Todays code challenge invoved creating linked lists with nodes. A linked list is a collection of ordered values that are stored in node objects. Nodes are an object used to hold a single value and a pointerto the next node.
+* Todays code challenge invoved creating linked lists with nodes. A linked list is a collection of ordered values that are stored in node objects. Nodes are an object used to hold a single value and a pointerto the next node.Collaborated with Edward Hou, Cristian Robles, and James Mansour on this code challenge. 
 
 ## Challenge
 <!-- Description of the challenge -->
