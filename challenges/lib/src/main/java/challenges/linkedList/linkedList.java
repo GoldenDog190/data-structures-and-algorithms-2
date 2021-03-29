@@ -1,4 +1,4 @@
-package linkedList;
+package challenges.linkedList;
 
 public class LinkedList {
     Node head;

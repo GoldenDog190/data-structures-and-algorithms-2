@@ -1,9 +1,6 @@
-package linkedList;
+package challenges.linkedList;
 
 import org.junit.Test;
-
-import org.junit.Assert.*;
-
 
 
 public class LinkedListTest {
@@ -35,7 +32,7 @@ public class LinkedListTest {
     }
 
     @Test public void linkListToString(){
-        linkedList = new linkedList();
+        challenges.linkedList = new linkedList();
         l.insert("a");
         l.insert("b");
         l.insert("c");
