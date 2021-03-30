@@ -15,4 +15,4 @@ Collaborated with Edward Hou and James Mansour for the white board and code chal
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![](assets/linkList.jpeg)
+![EF5EB3E2-5761-4443-84C9-1B5B44187025](https://user-images.githubusercontent.com/65562053/112925432-b59fb880-90c6-11eb-9851-0aa463bcf2f2.jpeg)
