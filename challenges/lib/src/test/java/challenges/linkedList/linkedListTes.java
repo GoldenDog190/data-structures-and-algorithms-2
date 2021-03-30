@@ -77,4 +77,17 @@ public class LinkedListTest {
         assertEquals("insert a node after the last node of the linked list", 7, l.append();
         assertTrue(l.isEmpty());
     }
+
+    //Code Challenge 7
+
+    @Test
+    public void findK(){
+        LinkedList linkedListTest = new LinkedList();
+        linkedListTest.insert(2);
+        linkedListTest.insert(2);
+        linkedListTest.insert(2);
+        linkedListTest.insert(2);
+
+        assertEquals(1, linkedListTest.findK(3));
+    }
 }

@@ -15,7 +15,7 @@ public class LinkedList {
         length = 0;
     }
 
-    public void insert(String value) {
+    public void insert(int value) {
         Node newNode = new Node(value);
         length++;
 
@@ -62,6 +62,36 @@ public class LinkedList {
         }
 
 //------------------------------------------------
+
+    // Code Challenge 07
+
+    public int findK(int k){
+        Node curr = this.head;
+        Node curr2 = this.head.next;
+        int count = k;
+
+
+        while(curr != null) {
+            if(count >0){
+            curr = curr.next;
+            count--;
+            continue;
+        }
+            curr = curr.next;
+            curr2 = curr2.next;
+
+            if(curr2.value ==null){
+                return -1;
+            }
+            return curr2.value;
+
+        }
+        return count;
+    }
+
+
+
+    //---------------------------------------
 
     public boolean includes(String value) {
       Node nowNode = head;
