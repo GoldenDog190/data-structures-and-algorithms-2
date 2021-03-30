@@ -11,5 +11,5 @@
 
 # [Singly Linked Lists- Class 05](readme/readme-challenge-05.md)
 
-# [Linked List Insertions](readme-challenge-06.md)
+# [Linked List Insertions](readme/readme-challenge-06.md)
 
