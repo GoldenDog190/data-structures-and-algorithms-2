@@ -1,3 +1,4 @@
+
 # Challenge Summary
 <!-- Short summary or background information -->
 Find the k-th value from the end of a linked list.
@@ -12,4 +13,4 @@ First drew out the whiteboard with Joseph Lee, Ceylin Brooks, and Garhett Morgan
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![]()
+![6ECC162E-04CD-4D84-9AFB-F6CD00303DCF_1_105_c](https://user-images.githubusercontent.com/65562053/113078293-a59bdd80-9187-11eb-9f0a-f7bfbdb0eabb.jpeg)
