@@ -11,8 +11,9 @@
 
 # [Singly Linked Lists- Class 05](readme/readme-challenge-05.md)
 
-
 # [Linked List Insertions - Class 06](readme/readme-challenge-06.md)
 
-
 # [Linked List k-th value - Class07](readme/readme-challenge-07.md)
+
+# [Linked List ZipList](readme/readme-challenge-08.md)
+

@@ -90,4 +90,29 @@ public class LinkedListTest {
 
         assertEquals(1, linkedListTest.findK(3));
     }
+
+    // Code Challenge 08 ---------------------------------------
+
+    @Test
+    public void zipList(){
+        LinkedList linkedListTest = new LinkedList();
+        l.insert("head");
+        l.insert("[1]");
+        l.insert("[3]");
+        l.insert("[2]");
+        l.insert("X");
+        String expected = ("head -> [1] -> [3] -> [2] -> X");
+        l.insertTwo("head");
+        l.insertTwo("[5]");
+        l.insertTwo("[9]");
+        l.insertTwo("[4]");
+        l.insert("X");
+        String expectedTwo = ("head -> [5] -> [9] -> [4] -> X");
+        linkedListTest.merge(expected, expectedTwo);
+        assertEquals("head -> [1] -> [5] -> [3] -> [9] -> [2] -> [4] -> X",
+                linkedListTest.length);
+
+
+    }
+    //-----------------------------------------------------------
 }

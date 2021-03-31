@@ -2,6 +2,7 @@ package challenges.linkedList;
 
 import javax.xml.soap.Node;
 
+import static com.sun.deploy.net.MessageHeader.merge;
 import static java.lang.String.format;
 
 // Code Challenge 5
@@ -114,6 +115,33 @@ public class LinkedList {
         return result;
     }
 
+    // Code Challenge 08 ---------------------------------------
+    // https://www.geeksforgeeks.org/merge-two-sorted-lists-place/
 
+    public static LinkedList zipLists(LinkedList one, LinkedList two){
+        Node nowNode = one.head;
+        Node nowNodeTwo = two.head;
+        nowNode.length = length;
+        nowNode.next = null;
+
+        while(node !=null){
+            node = nowNode.next;
+            nodeTwo = nowNode.next;
+        }
+        if(one == null) return two;
+        if(two == null) return one;
+
+        if(one.length < two.length){
+            one.next = merge(one.next, two);
+            return one;
+        }
+        else{
+            two.next = merge(one, two.next);
+            return two;
+        }
+
+    }
+
+//-------------------------------------------------------------
 }
 
