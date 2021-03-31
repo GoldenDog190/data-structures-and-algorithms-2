@@ -114,6 +114,12 @@ public class LinkedList {
         return result;
     }
 
+    // Code Challenge 08 ---------------------------------------
 
+    public static LinkedList zipLists(LinkedList one, LinkedList two){
+
+    }
+
+//-------------------------------------------------------------
 }
 

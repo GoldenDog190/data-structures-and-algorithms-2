@@ -90,4 +90,12 @@ public class LinkedListTest {
 
         assertEquals(1, linkedListTest.findK(3));
     }
+
+    // Code Challenge 08 ---------------------------------------
+
+    @Test
+    public void zipList(){
+
+    }
+    //-----------------------------------------------------------
 }
