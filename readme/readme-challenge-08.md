@@ -1,4 +1,4 @@
-![0A6053C1-7CDC-48FE-A71E-187AF1BB7E95_1_105_c](https://user-images.githubusercontent.com/65562053/113324173-a76eb980-92cb-11eb-9721-9e90cfaa57c7.jpeg)
+
 # Challenge Summary
 <!-- Short summary or background information -->
 Zip two seperate linked lists together, so that the output is a single lists with every other number from the two seperate linked lists.
