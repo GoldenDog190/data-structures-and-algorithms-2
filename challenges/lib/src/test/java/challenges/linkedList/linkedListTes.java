@@ -41,7 +41,7 @@ public class LinkedListTest {
         l.insert("a");
         l.insert("b");
         l.insert("c");
-        String expected = "{ a } -> { b } -> { c } -> NULL"
+        String expected = "{ a } -> { b } -> { c } -> NULL";
 
     }
     // Code Challenge 6 -------------------------------------------

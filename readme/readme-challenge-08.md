@@ -12,3 +12,4 @@ First drew out a whiteboard before working on the code. On the white board drew 
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![0A6053C1-7CDC-48FE-A71E-187AF1BB7E95_1_105_c](https://user-images.githubusercontent.com/65562053/113324173-a76eb980-92cb-11eb-9721-9e90cfaa57c7.jpeg)
