@@ -19,3 +19,5 @@
 
 # [Class 10: Stack and a Queue Implementation](readme/readme-challenge-10.md)
 
+# [Code Challenge: Class 11](readme/readme-challenge-11.md)
+
