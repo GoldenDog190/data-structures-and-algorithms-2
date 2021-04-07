@@ -22,3 +22,5 @@
 # [Code Challenge: Class 11](readme/readme-challenge-11.md)
 
 # [Code Challenge: Class 12](readme/readme-challenge-12.md)
+
+# [Code Challenge: Class 13](readme/readme-challenge-13.md)
