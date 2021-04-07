@@ -13,7 +13,7 @@ Multi-bracket Validation.
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-I worked together with Cristian Robles James Mansour, and Edward Hou on this code challenge. First drew out the problem domain, visual, and then code on the white board. Next worked on the actual code. The Big O space for this was  , and the time was  .
+I worked together with Cristian Robles James Mansour, and Edward Hou on this code challenge. First drew out the problem domain, visual, and then code on the white board. Next worked on the actual code. The Big O space for this was O(n), and the time was O(1).
 
 ## Solution
 <!-- Embedded whiteboard image -->
