@@ -2,50 +2,52 @@ package challenges.stacksandqueues;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import java.util.NoSuchElementException;
+
+import static org.junit.Assert.*;
 
 public class PseudoQueueTest {
-    public void enqueueTest(){
-        Stack s = new Stack();
-        s.enqueue(5);
-        assertEquals("successfully enqueue into a queue", s);
-        s.enqueue(4);
-        s.enqueue(3);
-        assertEquals("enqueue multiple values into a queue", s);
-    }
 
     @Test
-    public void dequeueTest(){
-        Stack s = new Stack();
-        s.dequeue(5);
-        s.dequeue(4);
-        s.dequeue(3);
-        s.dequeue(2);
+    public void dequeueAndEnqueueTest(){
+        Queue<Integer> s = new PseudoQueue<Integer, Stack<Integer>>(Stack<Integer>);
         s.dequeue(1);
-        assertEquals("dequeue out of a queue the expected value", s);
+        assertEquals("dequeue pulls elements out of order", 1, (int) s.dequeue());
+        s.dequeue(2);
+        s.dequeue(3);
+        assertEquals("dequeue pulls elements out of order", 2, (int) s.dequeue());
+        s.dequeue(4);
+        assertEquals("dequeue pulls elements out of order", 3, (int) s.dequeue());
+        s.dequeue(5);
+        assertEquals("dequeue pulls elements out of order", 4, (int) s.dequeue());
+        assertEquals("dequeue pulls elements out of order", 5, (int) s.dequeue());
     }
 
     @Test
     public void peekTest(){
-        Stack s = new Stack();
-        assertTrue("new queue is empty", s.isEmpty());
-        s.enqueue(6);
-        assertEquals("peek the next item on the queue", 3, (int) s.peek());
-
+        Queue<Integer> s = new PseudoQueue<Integer, Stack<Integer>>(Stack<Integer>);
+        assertTrue("new queue is null", s.isEmpty());
+        s.enqueue(5);
+        assertEquals("peek gets the front item on the queue", 5, (int) s.peek());
+        s.enqueue(3);
+        s.enqueue(4);
+        assertEquals("peek gets the front item on the queue after adding a new item", 5, (int) s.peek());
 
     }
 
     @Test
     public void isEmptyTest(){
-        Stack s = new Stack();
-        assertTrue("queue is empty", s.isEmpty());
+        Queue<Integer> s = new PseudoQueue<Integer, Stack<Integer>>(Stack<Integer>);
+        assertThrows("queue is empty", NoSuchElementException.class, ()-> s.dequeue());
+        s.enqueue(6);
+        s.dequeue();
+        assertThrows("empty queue is thrown",NoSuchElementException.class, ()-> s.dequeue());
     }
 
     @Test
     public void overturn(){
-        Stack s = new Stack();
-        assertEquals("queue has been overturned");
+        Queue<Integer> s = new PseudoQueue<Integer, Stack<Integer>>(Stack<Integer>);
+        assertEquals("queue has been overturned", s);
 
     }
 
