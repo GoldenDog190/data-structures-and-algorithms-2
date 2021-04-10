@@ -16,3 +16,4 @@ Collaborated with Joseph, Edward Hou, James Mansour, and Cristian Robles. First 
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![F4A16EC7-134F-48DA-9869-D74B72C516F4](https://user-images.githubusercontent.com/65562053/113739538-bfbc4b00-96b4-11eb-9932-e12ca5d9f4df.jpeg)
