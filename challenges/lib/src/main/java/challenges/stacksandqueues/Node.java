@@ -1,13 +1,15 @@
 package challenges.stacksandqueues;
 
- class Node<T> {
+ public class Node<T> {
 
-    public Node<T> next;
     public T value;
+     public T left;
+     public T right;
 
-    public Node(T value, Node<T> next){
-        this.next =next;
+     public Node(T value, T right, T left){
         this.value= value;
+        this.right = right;
+        this.left = left;
     }
 
-}
+ }
