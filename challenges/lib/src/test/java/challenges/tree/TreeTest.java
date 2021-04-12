@@ -6,8 +6,10 @@ import org.junit.Test;
 import java.util.List;
 
 import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 
 public class TreeTest {
+    // -------------------Code challenge 15 ----------------------------------
 Tree<Character> tree = new Tree<>();
     @Before
     public void createTree(){
@@ -53,4 +55,38 @@ Tree<Character> tree = new Tree<>();
         Character[] expected = {'h', 'f', 'n', 'c', 'g', 'j', 'p', 'a', 'd', 'i', 'k', 'm', 'l'};
         assertArrayEquals(expected, result.toArray(new Character[result.size()]));
     }
+
+    // -------------------Code challenge 16 ----------------------------------
+
+    @Before
+    public void createTreeTwo(){
+        Tree tree = new Tree<>();
+        tree.root = new Node(2, null, null);
+        tree.root.left = new Node<Integer>(7, null, null);
+        tree.root.left.left = new Node<Integer>(2, null, null);
+        tree.root.left.right = new Node<Integer>(6, null, null);
+        tree.root.left.right.left = new Node<Integer>(5, null, null);
+        tree.root.left.right.right = new Node<Integer>(11, null, null);
+        tree.root.right = new Node<Integer>(5, null, null);
+        tree.root.right.right.right = new Node<Integer>(9, null, null);
+        tree.root.right.right.left = new Node<Integer>(4, null, null);
+    }
+
+
+    @Test
+    public void breathTraversalTwo(){
+        List result = tree.breadthTraversal();
+        Integer[] expected = {2, 7, 2, 6, 5, 2, 6, 5, 11, 5, 9, 4};
+        assertEquals(expected, result);
+    }
+
+    @Test
+    public void findMaximumValue(){
+        List result = tree.breadthTraversal();
+        Integer expected = 11;
+        assertEquals(expected, result);
+
+    }
+
+    //-------------------------------------------------------------------------
 }
