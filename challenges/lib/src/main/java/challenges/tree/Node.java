@@ -15,4 +15,8 @@ public class Node<T> {
     public Node(T value) {
 
     }
+
+    public Node(int i, Object left, Object right) {
+    }
+
 }
