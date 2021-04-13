@@ -28,3 +28,5 @@
 
 # [Code Challenge: Class 16](readme/readme-challenge-16.md)
 
+# [Code Challenge: Class 17](readme/readme-challenge-17.md)
+
