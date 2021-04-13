@@ -91,7 +91,7 @@ public class Tree<T> {
     }
 
     public int findMaximumValue(Node node){
-        int max = Integer.MIN_INT;
+        int max = Integer.MIN_VALUE;
         if(node == null)
             return max;
         int result = (int) node.value;
