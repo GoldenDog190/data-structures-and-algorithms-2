@@ -93,6 +93,7 @@ public class Tree<T> {
 
     }
 
+
     private void printLevel(Node<T> root, int level) {
             if(root == null) return;
             if(level == 1)
@@ -102,6 +103,21 @@ public class Tree<T> {
                 printLevel(root.right, level-1);
 
             }
+
+    public int findMaximumValue(Node node){
+        int max = Integer.MIN_VALUE;
+        if(node == null)
+            return max;
+        int result = (int) node.value;
+        int resultOne = findMaximumValue(node.left);
+        int resultTwo = findMaximumValue((node.right);
+        if(resultOne > result)
+            result = resultOne;
+        if(resultTwo > result)
+            return result;
+
+        return result;
+
     }
 
     //------------------------------------------------------------------------

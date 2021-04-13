@@ -12,3 +12,4 @@ I first started it out by writing up my whiteboard, and then moved onto my code.
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![9853890B-A330-49AD-A0C9-26B2D7E9295E](https://user-images.githubusercontent.com/65562053/114464332-7713fe80-9b9a-11eb-9290-1521d528576e.jpeg)
