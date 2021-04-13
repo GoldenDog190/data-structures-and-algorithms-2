@@ -8,7 +8,7 @@
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-I first started it out by writting up my whiteboard, and then moved onto my code. I used the find maximum value method to find the largest value in the tree. The Big O space/time is O(n). Then I wrote the tests out.
+I first started it out by writing up my whiteboard, and then moved onto my code. I used the find maximum value method to find the largest value in the tree. The Big O space/time is O(n). Then I wrote the tests out.
 
 ## Solution
 <!-- Embedded whiteboard image -->
