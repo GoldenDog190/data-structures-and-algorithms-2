@@ -42,20 +42,20 @@ public class FizzBuzzTreeTest {
     @Before
     public void createNewTreeFizzBuzz(){
         Tree treeNew = new Tree<>();
-        treeNew.root = new Node<>('5');
-        treeNew.root.left = new Node<>('15');
-        treeNew.root.left.left = new Node<>('30');
-        treeNew.root.left.left.left = new Node<>('60');
-        treeNew.root.left.left.right = new Node<>('75');
-        treeNew.root.right = new Node<>('9');
-        treeNew.root.right.right = new Node<>('45');
-        treeNew.root.right.left = new Node<>('60');
+        treeNew.root = new Node<>('Buzz');
+        treeNew.root.left = new Node<>('FizzBuzz');
+        treeNew.root.left.left = new Node<>('FizzBuzz');
+        treeNew.root.left.left.left = new Node<>('FizzBuzz');
+        treeNew.root.left.left.right = new Node<>('FizzBuzz');
+        treeNew.root.right = new Node<>('Fizz');
+        treeNew.root.right.right = new Node<>('FizzBuzz');
+        treeNew.root.right.left = new Node<>('FizzBuzz');
     }
 
     @Test
     public void newTreeFizzBuzz(){
         List<String> result = treeNew.breadthTraversal();
-        Character[] expected = {'5', '15', '30', '60', '75', '9', '45', '60'};
+        Character[] expected = {'Buzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'FizzBuzz', 'Fizz', 'FizzBuzz', 'FizzBuzz'};
         assertArrayEquals(expected, result.toArray(new String[result.size()]));
     }
 

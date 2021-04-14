@@ -11,7 +11,8 @@ import static javax.swing.Spring.height;
 
 
 public class Tree<T> {
-//----------------Code Challenge 15--------------------------------
+    public Node<Object> root;
+    //----------------Code Challenge 15--------------------------------
     challenges.tree.Node root;
     private Queue<Object> queue;
 
