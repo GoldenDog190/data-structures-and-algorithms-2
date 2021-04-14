@@ -17,3 +17,4 @@ I worked together with Cristian Robles James Mansour, and Edward Hou on this cod
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![13706182-943A-4BEB-9F3F-2A0DA92B7767](https://user-images.githubusercontent.com/65562053/114046875-0ee1b780-983e-11eb-8dc1-dbe205790011.jpeg)

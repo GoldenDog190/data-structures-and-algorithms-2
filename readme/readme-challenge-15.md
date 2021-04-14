@@ -26,3 +26,5 @@
 * postOrder method - traverses alphabetically
 * add method - accepts a value, and adds a new node with that value in the correct location in the binary search tree.
 * contains method - accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
+
+![CCE904CA-664D-40F7-8067-3AAD8BDE2048_1_105_c](https://user-images.githubusercontent.com/65562053/114319434-7447d980-9ac6-11eb-891b-c4566019b42f.jpeg)
