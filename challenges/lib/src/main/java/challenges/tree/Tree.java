@@ -130,7 +130,9 @@ public class Tree<T> {
 
         }
 
-        private void printLevel(Node<T> root, int level) {
+
+    private void printLevel(Node<T> root, int level) {
+
             if(root == null) return;
             if(level == 1)
                 System.out.println(root.value + "");
@@ -139,7 +141,7 @@ public class Tree<T> {
                 printLevel(root.right, level-1);
 
             }
-        }
+      
 
         //------------------------------------------------------------------------
     }
