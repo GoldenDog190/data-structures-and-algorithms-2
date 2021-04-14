@@ -1,11 +1,18 @@
 package challenges.tree;
 
+import challenges.stacksandqueues.Stack;
+
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+
+import static javax.swing.Spring.height;
 
 
 public class Tree<T> {
-//----------------Code Challenge 15--------------------------------
+    public Node<Object> root;
+    //----------------Code Challenge 15--------------------------------
     challenges.tree.Node root;
     private Queue<Object> queue;
 
@@ -101,7 +108,7 @@ public class Tree<T> {
 
         //-------------------------------------------------------------------------
 
-        
+
         //-----------------Code Challenge 17--------------------------------------
         // https://www.geeksforgeeks.org/level-order-tree-traversal/
         Node<T> root;
