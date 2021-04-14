@@ -1,7 +1,13 @@
 package challenges.tree;
 
+import challenges.stacksandqueues.Stack;
+
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+
+import static javax.swing.Spring.height;
 
 
 public class Tree<T> {
