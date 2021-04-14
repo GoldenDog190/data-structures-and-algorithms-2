@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TreeTest {
 
-    //--------------------Code Challenge 16------------------------------------
+    //--------------------Code Challenge 17------------------------------------
     Tree<Integer> tree = new Tree<>();
     @Before
     public void createTree(){
