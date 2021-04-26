@@ -32,3 +32,6 @@
 # [Code Challenge: Class 17](readme/readme-challenge-17.md)
 
 # [Code Challenge: Class 18](readme/readme-challenge-18.md)
+
+# [Code Challenge: Class 26](readme/challenge-26.md)
+# [Code Challenge: Class 26 Blog](readme/BLOG.md)
