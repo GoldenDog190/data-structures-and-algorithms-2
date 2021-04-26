@@ -1,4 +1,4 @@
-package challenges.blog;
+package challenges.sort;
 
 public class InsertionSort {
     public void InsertionSort(int[] arr){

@@ -1,6 +1,6 @@
-package challenges.blogTest;
+package challenges.sortTest;
 
-import challenges.blog.InsertionSort;
+import challenges.sort.InsertionSort;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
