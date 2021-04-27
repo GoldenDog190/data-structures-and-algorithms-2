@@ -20,3 +20,4 @@ I first started it out by writing up my whiteboard, and then moved onto my code.
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![51D64863-B5D2-4F4A-818B-40D77534D72B_1_105_c](https://user-images.githubusercontent.com/65562053/114780504-57acdb00-9d2c-11eb-90c4-e7359777a4dc.jpeg)

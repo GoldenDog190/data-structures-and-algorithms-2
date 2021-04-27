@@ -6,7 +6,6 @@
 
 # [Challenge Insert Shift Array - Class 02](readme/readme-challenge-02.md)
 
-
 # [Binanry Search - Class 03](readme/readme-challenge-03.md)
 
 # [Singly Linked Lists- Class 05](readme/readme-challenge-05.md)
@@ -38,3 +37,4 @@
 
 # [Code Challenge: Class 27](readme/challenge-27.md)
 # [Code Challenge: Class 27 Blog](readme/BLOG-2.md)
+
