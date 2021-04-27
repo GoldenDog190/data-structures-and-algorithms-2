@@ -45,16 +45,22 @@ ALGORITHM Merge(left, right, arr)
   - First will pass through the array, and then split the array in two.
 
 * Pass 2
-  - The array is split into two.
+  - The array is split into two seperate arrays.
 
 * Pass 3
-  - 
+  - The two arrays will split again.
 
 * Pass 4
-  - 
+  - The left side will be sorted.
 
 * Pass 5
-  - 
+  - The right side will be sorted.
+
+* Pass 6
+  - Both sides will merge once the sorting is done.
+
+* Pass 7
+  - Final iteration will the finished merged array.
 
 ## Efficiency
 * Time: O(nlogn)
