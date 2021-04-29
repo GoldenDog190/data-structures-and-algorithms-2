@@ -12,4 +12,4 @@ First went over the instructions, and looked over the psuedocode. Then I set up 
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![]()
+![979C5D1C-B605-46BA-B438-ECE4EE44E051](https://user-images.githubusercontent.com/65562053/116494450-b2c6ed80-a855-11eb-83d9-d5b7719f38d7.jpeg)
