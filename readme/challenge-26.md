@@ -11,4 +11,4 @@ First went over the instructions, and looked over the psuedocode. Then I set up 
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![]()
+![81EF90C5-7DF8-4FFF-856A-856553C6EA57](https://user-images.githubusercontent.com/65562053/116156093-e5c78080-a69f-11eb-8a7d-a74772000b3a.jpeg)
