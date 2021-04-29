@@ -8,7 +8,7 @@
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-First went over the instructions, and looked over the psuedocode. Then I set up the files I needed for this challenge. I then followed the blog example to write out the blog. I drew out the whiteboard for the blog, and wrote out a simple run through of the code. The Big O for this challenge is space , and time  for this challenge.
+First went over the instructions, and looked over the psuedocode. Then I set up the files I needed for this challenge. I then followed the blog example to write out the blog. I drew out the whiteboard for the blog, and wrote out a simple run through of the code. The Big O for this challenge is space O(n^2), and time O(n^2) for this challenge.
 
 ## Solution
 <!-- Embedded whiteboard image -->

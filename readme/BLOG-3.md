@@ -39,26 +39,23 @@ ALGORITHM Swap(arr, i, low)
 * Sample Array: [8,4,23,42,16,15]
 
 * Pass 1
-  - 
+  - First will pass through the array, and then partition the array in two.
 
 * Pass 2
-  - 
+  - Sort the left side.
 
 * Pass 3
-  - 
+  - Sort the right side, if needed.
 
 * Pass 4
-  - 
+  - Swap the lowest number.
 
 * Pass 5
-  - 
+  - Both sides will merge once the sorting is done.
 
 * Pass 6
-  - 
-
-* Pass 7
-  - 
+  - Final iteration will be the finished merged array.
 
 ## Efficiency
-* Time: O()
-* Space: O()
+* Time: O(n^2)
+* Space: O(n^2)
