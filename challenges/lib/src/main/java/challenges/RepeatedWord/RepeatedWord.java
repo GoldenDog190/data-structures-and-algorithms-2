@@ -11,7 +11,7 @@ public class RepeatedWord {
 
 
     public String firstDuplicateWord(String s){
-        Iterator<String> iterator = Pattern.compile("[^a-zA-Z]").splitAsStream("abc").iterator();
+        Iterator<String> iterator = Pattern.compile("[^a-zA-Z]+").splitAsStream("abc").iterator();
         Set<String> setHash = new HashSet<>();
         while(iterator.hasNext()){
             String word = iterator.next().toLowerCase(Locale.ROOT);
