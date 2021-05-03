@@ -16,3 +16,4 @@ First started out by drawing out the whiteboard with James Mansour, Cristian Rob
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![AAA895C1-C18C-4783-932B-4D45C9A71C05](https://user-images.githubusercontent.com/65562053/116935467-406e5880-ac1b-11eb-8507-3db272505c79.jpeg)
