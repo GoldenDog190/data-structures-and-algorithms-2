@@ -12,8 +12,7 @@ Find the first repeated word in a book.
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-First started out by drawing out the whiteboard before coding. Then 
-The Big O space is O(1), and the time is  O(1).
+First started out by drawing out the whiteboard with James Mansour, Cristian Robles, and Edward Hou before coding. Then we wrote out the code and tests for the challenge. The Big O space is O(1), and the time is O(1).
 
 ## Solution
 <!-- Embedded whiteboard image -->
