@@ -43,3 +43,4 @@
 
 # [Code Challenge: Class 30](readme/challenge-30.md)
 
+# [Code Challenge: Class 31](readme/challenge-31.md)
