@@ -9,7 +9,7 @@ Without utilizing any of the built-in library methods available to your language
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-First started out by drawing out the whiteboard with James Mansour, Cristian Robles, and Edward Hou before coding. Then we wrote out the code and tests for the challenge. The Big O space is , and the time is .
+First started out by drawing out the whiteboard. Then I wrote out the code and tests for the challenge. The Big O space is O(n), and the time is 0(n + n).
 
 ## Solution
 <!-- Embedded whiteboard image -->
