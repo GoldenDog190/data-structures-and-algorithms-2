@@ -13,3 +13,4 @@ First started out by drawing out the whiteboard. Then I wrote out the code and t
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![73C5D70C-EA70-496C-BEA8-A97BB1F90228](https://user-images.githubusercontent.com/65562053/117092219-83f7be00-ad12-11eb-8f95-225d503f0440.jpeg)
