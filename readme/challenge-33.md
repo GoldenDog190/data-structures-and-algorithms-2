@@ -18,3 +18,4 @@ First started out by drawing out the whiteboard with James Mansour, Cristian Rob
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![CD67AC87-83D5-429F-80B6-68BC16B4E804_1_105_c](https://user-images.githubusercontent.com/65562053/117204265-eef1d500-ada4-11eb-8e95-681b8e659ba8.jpeg)
