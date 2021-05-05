@@ -1,19 +1,45 @@
 package challenges.TreeIntersection;
 
-import java.util.TreeMap;
-import java.util.TreeSet;
+import java.util.HashSet;
 
 public class TreeIntersection {
-    public TreeMap<Integer, Integer> getTreeSet(Integer value) {
-        TreeMap<Integer, Integer> treeMap1 = new TreeMap<>();
-        TreeMap<Integer, Integer> treeMap2 = new TreeMap<>();
+    static class Node
+    {
+        int data;
+        Node left;
+        Node right;
+    };
 
-        for (int i = 0; i < value; i++){
-            Integer tree1 = treeMap1.get(value);
-        }
-        treeMap1.put(value, value);
-        treeMap2.put(value, value);
+    static Node newNode(int val)
+    {
+        Node temp = new Node();
+        temp.data = val;
+        temp.left = temp.right = null;
+        return temp;
+    }
 
+    static void insertHashSet(Node root, HashSet<Integer> tree)
+    {
+        if (root == null)
+            return;
+        insertHashSet(root.left, tree);
+        tree.add(root.data);
+        insertHashSet(root.right, tree);
+    }
+
+    static boolean contains(Node root1, Node root2)
+    {
+        if (root1 != null && root2 != null)
+            return true;
+        if ((root1 == null && root2 != null) || (root1 != null && root2 == null))
+            return false;
+
+        HashSet<Integer> tree1 = new HashSet<Integer>();
+        HashSet<Integer> tree2 = new HashSet<Integer>();
+        insertHashSet(root1, tree1);
+        insertHashSet(root2, tree2);
+
+        return (tree1.equals(tree2));
     }
 
 
