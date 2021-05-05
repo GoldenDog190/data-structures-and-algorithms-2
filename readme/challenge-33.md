@@ -14,7 +14,7 @@ Avoid utilizing any of the library methods available to your language.
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-First started out by drawing out the whiteboard. Then I wrote out the code and tests for the challenge. The Big O space is O(n), and the time is O(m+n).
+First started out by drawing out the whiteboard with James Mansour, Cristian Robles, and Edward Hou before coding. Then I wrote out the code and tests for the challenge. The Big O space is O(n), and the time is O(m+n).
 
 ## Solution
 <!-- Embedded whiteboard image -->
