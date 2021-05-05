@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class LeftJoin {
+
     public static List<String> leftJoin(HashMap hm1, HashMap hm2){
         List<String> list = new ArrayList<>();
         for (Object key : hm1.keySet()){
