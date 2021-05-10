@@ -42,12 +42,12 @@ public class BreathFirstTest {
 
     @Test
     public void BreathFirstTraversal(){
-        graph.GetNodes("Pandora");
-        graph.GetNodes("Arendelle");
-        graph.GetNodes("Metroville");
-        graph.GetNodes("Monstroplolis");
-        graph.GetNodes("Narnia");
-        graph.GetNodes("Naboo");
+        graph.GetNeighbors("Pandora");
+        graph.GetNeighbors("Arendelle");
+        graph.GetNeighbors("Metroville");
+        graph.GetNeighbors("Monstroplolis");
+        graph.GetNeighbors("Narnia");
+        graph.GetNeighbors("Naboo");
         assertEquals("Pandora, Arendelle, Metroville, Monstroplolis, Narnia, Naboo", graph);
     }
 }
