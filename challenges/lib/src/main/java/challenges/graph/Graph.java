@@ -5,8 +5,11 @@ import java.util.*;
 
 public class Graph<V, M> {
 
-  List<V> vertexes = new ArrayList<>();
+     int vertices;
+    List<V> vertexes = new ArrayList<>();
   List<List<M>> matrix = new ArrayList<>();
+
+
 
     public V AddNode(V value){
         if(vertexes.contains(value)){
@@ -48,4 +51,13 @@ public class Graph<V, M> {
     public int Size(int i){
         return vertexes.size();
     }
-}
+
+    public Graph(int vertices) {
+        this.vertices = vertices;
+        LinkedList[] adjacencylist = new LinkedList[vertices];
+
+        for (int i = 0; i <vertices ; i++) {
+            adjacencylist[i] = new LinkedList<>();
+        }
+
+    }

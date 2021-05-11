@@ -52,3 +52,5 @@
 # [Code Challenge: Class 35](readme/challenge-35.md)
 
 # [Code Challenge: Class 36](readme/challenge-36.md)
+
+# [Code Challenge: Class 37](readme/challenge-37.md)
