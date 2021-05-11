@@ -8,7 +8,7 @@ Extend your graph object with a breadth-first traversal method that accepts a st
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-First started out by drawing out the whiteboard with Cristian Robles and Edward Hou before coding. Then I wrote out the code and tests for the challenge. The Big O space is O(v), and the time is O(v).
+First started out by drawing out the whiteboard with Cristian Robles and Edward Hou before coding. Then I wrote out the code and tests for the challenge. The Big O space is O(n), and the time is O(n).
 
 ## Solution
 <!-- Embedded whiteboard image -->
