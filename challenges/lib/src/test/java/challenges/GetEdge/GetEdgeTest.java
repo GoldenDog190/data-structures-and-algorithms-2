@@ -30,18 +30,44 @@ public class GetEdgeTest {
     }
 
     @Test
-    public void addEdge(){
-        graph.AddEdge("Pandora", "Arendelle",150, true);
-        graph.AddEdge("Pandora", "Metroville", 82, true);
-        graph.AddEdge("Arendelle", "Metroville", 99, true);
-        graph.AddEdge("Arendelle", "Monstroplolis", 42, true);
-        graph.AddEdge("Monstroplolis", "Naboo", 73, true);
-        graph.AddEdge("Metroville", "Monstroplolis",105 , true);
-        graph.AddEdge("Metroville", "Naboo",26 , true);
-        graph.AddEdge("Metroville", "Arendelle",99 , true);
-        graph.AddEdge("Metroville", "Narnia",37 , true);
-        graph.AddEdge("Narnia", "Naboo", 250, true);
-        graph.AddEdge("Naboo", "Monstroplolis", 250, true);
+    public void AddEdge(){
+        graph.AddEdge("Pandora", "Arendelle",2, true);
+        graph.AddEdge("Pandora", "Metroville", 2, true);
+        graph.AddEdge("Arendelle", "Metroville", 2, true);
+        graph.AddEdge("Arendelle", "Monstroplolis", 2, true);
+        graph.AddEdge("Monstroplolis", "Naboo", 2, true);
+        graph.AddEdge("Metroville", "Monstroplolis",2 , true);
+        graph.AddEdge("Metroville", "Naboo",2 , true);
+        graph.AddEdge("Metroville", "Arendelle",2 , true);
+        graph.AddEdge("Metroville", "Narnia",2 , true);
+        graph.AddEdge("Narnia", "Naboo", 2, true);
+        graph.AddEdge("Naboo", "Monstroplolis", 2, true);
+        assertTrue("Pandora, Arendelle", true);
+        assertTrue("Pandora, Metroville", true);
+        assertTrue("Arendelle, Metroville", true);
+        assertTrue("Arendelle, Monstroplolis", true);
+        assertTrue("Monstroplolis, Naboo", true);
+        assertTrue("Metroville, Monstroplolis", true);
+        assertTrue("Metroville, Naboo", true);
+        assertTrue("Metroville, Arendelle", true);
+        assertTrue("Metroville, Narnia", true);
+        assertTrue("Narnia, Naboo", true);
+        assertTrue(" Naboo, Monstroplolis", true);
+
+    }
+
+    @Test
+    public void GetEdge(){
+        graph.GetEdge("Pandora", "Metroville", 82);
+        graph.GetEdge("Arendelle", "Metroville", 99);
+        graph.GetEdge("Arendelle", "Monstroplolis", 42);
+        graph.GetEdge("Monstroplolis", "Naboo", 73);
+        graph.GetEdge("Metroville", "Monstroplolis",105);
+        graph.GetEdge("Metroville", "Naboo",26);
+        graph.GetEdge("Metroville", "Arendelle",99);
+        graph.GetEdge("Metroville", "Narnia",37);
+        graph.GetEdge("Narnia", "Naboo", 250);
+        graph.GetEdge("Naboo", "Monstroplolis", 250);
         assertTrue("Pandora, Arendelle, 150", true);
         assertTrue("Pandora, Metroville, 82", true);
         assertTrue("Arendelle, Metroville, 99", true);
