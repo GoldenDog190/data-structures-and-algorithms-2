@@ -12,3 +12,4 @@ First started out by drawing out the whiteboard. Then I wrote out the code and t
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![340AEEA6-254E-427B-B0AD-8D83F3794712](https://user-images.githubusercontent.com/65562053/118004783-9ff4f400-b2fe-11eb-828b-02df0ea82e62.jpeg)
