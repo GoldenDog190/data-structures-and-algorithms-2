@@ -13,7 +13,7 @@ public class Stack<T> {
     }
 
     public T pop(int i){
-        if (head == null) throw new EmptyStackException("took the top on off");
+        if (head == null) throw new EmptyStackException();
             T result = head.value;
             head =head.next;
             return result;
@@ -21,7 +21,7 @@ public class Stack<T> {
     }
 
     public T peek(){
-       if(head == null) throw new EmptyStackException("Empty Stack");
+       if(head == null) throw new EmptyStackException();
            return head.value;
 
     }
