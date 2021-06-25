@@ -9,7 +9,7 @@ public class Queue<T> {
 
     public void enqueue(Object value){
         if(head == null){
-            head = new Node<T>(value, null);
+            head = new Node<T>( value, null);
             tail = head;
         } else {
             tail.next = new Node<T>(value, null);
